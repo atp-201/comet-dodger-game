@@ -7,6 +7,9 @@ export default defineConfig(() => {
   return {
     base: '/comet-dodger-game/',
     plugins: [react(), tailwindcss()],
+    build: {
+      outDir: 'docs',
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
