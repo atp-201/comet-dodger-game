@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/comet-dodger-game/',
+    base: './',
     plugins: [react(), tailwindcss()],
     build: {
       outDir: 'docs',
